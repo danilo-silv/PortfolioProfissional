@@ -287,6 +287,10 @@ li {
     width: 55%;
 }
 
+.gitHub, .git {
+    width: 40%;
+}
+
 .aws {
     width: 43%;
 }
