@@ -252,31 +252,43 @@ li {
 }
 
 .html5 {
-    width: 90%;
+    width: 65%;
 }
 
-.css3, .jquery {
-    width: 80%;
+.css3 {
+    width: 45%;
 }
 
-.mysqlAndSql, .bootstrap, .semantic-ui {
-    width: 70%;
+.mysqlAndSql {
+    width: 40%;
+}
+
+.bootstrap {
+    width: 50%;
+}
+
+.semantic-ui {
+    width: 45%;
 }
 
 .javaScript {
-    width: 86%;
+    width: 50%;
+}
+
+.jquery {
+    width: 40%;
 }
 
 .nodeJs {
-    width: 76%;
+    width: 45%;
 }
 
 .angular {
-    width: 85%;
+    width: 55%;
 }
 
 .aws {
-    width: 75%;
+    width: 43%;
 }
 
 /*Grid*/
