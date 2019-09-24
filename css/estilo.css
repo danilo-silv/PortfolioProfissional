@@ -1,0 +1,323 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #666;
+    line-height: 1.5;
+}
+
+a, .copyright a, .main-content-section a {
+    transition: color .2s linear, border .2s linear;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    color: #49bf9d;
+}
+
+a:hover {
+    border-bottom-color: transparent;
+}
+
+p {
+    margin: 0 0 2em;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #787878;
+    font-weight: normal;
+    margin: 1em 0;
+}
+
+h1 {
+    font-size: 36px
+}
+
+h2 {
+    font-size: 30px
+}
+
+h3 {
+    font-size: 26px
+}
+
+h4 {
+    font-size: 22px
+}
+
+h5 {
+    font-size: 18px
+}
+
+h6 {
+    font-size: 15px
+}
+
+.ul-icons {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.ul-icons li {
+    display: inline-block;
+    font-size: 2em;
+    color: #49bf9d;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 1.1em;
+}
+
+li {
+    padding-left: .5em;
+}
+
+.hidden {
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.imagem-link {
+    border: 0;
+}
+
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 35%;
+    padding: 124px 54px 72px;
+    box-sizing: border-box;
+    background-image: url(../images/overlay.png), url(../images/bg.jpg);
+    background-position: left top;
+    background-size: auto, cover;
+    text-align: right;
+}
+
+.main-header-title {
+    font-size: 22px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, .5);
+    font-weight: normal;
+}
+
+.main-header-title strong {
+    color: white;
+    font-weight: normal;
+}
+
+.main-header-link {
+    color: inherit;
+}
+
+.main-header-link:hover {
+    color: #49bf9d;
+}
+
+.main-content-section {
+    width: 65%;
+    margin-left: 35%;
+    padding: 53px 54px 0px;
+    box-sizing: border-box;
+}
+
+.main-header-link img {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.main-header-infor {
+    font-size: 15px;
+}
+
+.recent-works-card img {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.main-footer {
+    position: fixed;
+    bottom: 0;
+    width: 35%;
+    left: 0;
+    padding: 0px 54px 72px 0;
+    box-sizing: border-box;
+    text-align: right;
+    line-height: 1.5;
+}
+
+.main-footer a {
+    color: rgba(255, 255, 255, 0.4);
+    text-decoration: none;
+}
+
+.main-footer a:hover {
+    color: #49bf9d;
+}
+
+.main-footer .ul-icons a {
+    font-size: .75em;
+    border-bottom: none;
+}
+
+.copyright {
+    list-style: none;
+}
+
+.main-content-section a {
+    color: rgba(71, 66, 66, 0.4);
+    margin-right: 0.12em;
+    text-decoration: none;
+    font-size: .95em;
+    border-bottom: none;
+}
+
+.main-content-section a:hover {
+    color: #49bf9d;
+}
+
+.main-content-section ul li.work {
+    list-style: circle;
+}
+
+.main-content-section ul li.info {
+    list-style: none;
+}
+
+.main-content-section ul li.info a {
+    color: #49bf9d;
+    padding: 0 0.75em 0 0;
+    line-height: 1;
+}
+
+.main-content-section ul li.info h6 {
+    color: #49bf9d;
+}
+
+.copyright li {
+    display: inline-block;
+    border-left: solid 1px rgba(255, 255, 255, 0.25);
+    padding: 0 0.75em;
+    line-height: 1;
+    font-size: .8em;
+}
+
+.copyright li:first-child {
+    border-left: 0;
+}
+
+.copyright li:last-child {
+    padding-right: 0;
+}
+
+.img-left {
+    float: left;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+}
+
+.img-right {
+    float: right;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 186px;
+    border: transparent thin solid;
+}
+
+.progress {
+    height: auto;
+    border-radius: 1.25rem;
+    display: flex;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap
+}
+
+.progress-bar {
+    border-radius: 16px;
+    background-color: #49bf9d;
+    height: 20px;
+}
+
+.html5 {
+    width: 90%;
+}
+
+.css3, .jquery {
+    width: 80%;
+}
+
+.mysqlAndSql, .bootstrap, .semantic-ui {
+    width: 70%;
+}
+
+.javaScript {
+    width: 86%;
+}
+
+.nodeJs {
+    width: 76%;
+}
+
+.angular {
+    width: 85%;
+}
+
+.aws {
+    width: 75%;
+}
+
+/*Grid*/
+
+.row {
+    overflow: auto;
+}
+
+.col2 {
+    width: 48.5%;
+    float: left;
+}
+
+.col2:first-child {
+    margin-right: 1.5%;
+}
+
+.col2:last-child {
+    margin-left: 1.5%;
+}
+
+.col23 {
+    width: 66%;
+    float: left;
+}
+
+.col13 {
+    width: 32%;
+    float: left;
+}
+
+.col13:nth-child(3n - 2) {
+    /* 1, 4, 7*/
+    margin-right: 2%;
+}
+
+.col13:nth-child(3n) {
+    /* 3, 6, 9*/
+    margin-left: 2%;
+}
+
+.col23+.col13, .col13+.col23 {
+    margin-left: 2%;
+}
